@@ -11,7 +11,7 @@ The identification of jersey numbers is a crucial task in sport analytics that c
 
 ## Architecture
 ![7ea1f5181b09a42f9673284bdb45a68](https://github.com/user-attachments/assets/74861c5b-cef0-44a1-894c-d688f6d5dcde)
-(Full structure of the neural network) 
+> (Full structure of the neural network) 
 
 DeepField's E2 Engine is based on the EfficientNet-B0 architecture, which is a lightweight and very efficient convolutional neural network (CNN) optimized for image classification tasks. E2 is designed to be performance efficient, adaptable, scalable, and most importantly accurate. **E2's premise is utilizing machine learning to accelerate traditional automated tasks for predictive performance.** 
 
