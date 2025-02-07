@@ -84,7 +84,7 @@ The E2 Engine outperforms the E1 Engine in several key areas. The improvements a
 The E2 Engine represents a significant advancement in jersey number detection, achieving 94.6% accuracy on the test dataset and 89% accuracy on a random internet dataset. By leveraging EfficientNet-B0, knowledge distillation, and advanced data augmentation, the E2 Engine outperforms its predecessor while maintaining a compact model size. Future work will explore the integration of Vision Transformers (ViTs) and self-supervised learning to further improve accuracy and generalization.
 
 ## Credit
-> Created by [Gordon H.](https://www.github.com/spyexpert) and [Will C.](https://www.github.com/willuhd)
+> Created by [Gordon H.](https://www.github.com/ziqian-huang0607) and reviewed by [Will C.](https://www.github.com/willuhd)
 > 
 1. Robocup Jersey Detection. (2024). Retrieved from https://universe.roboflow.com/robocupjersey-detection/jersey-detection/
 2. Tan, M., & Le, Q. V. (2019). EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks. arXiv preprint arXiv:1905.11946.
