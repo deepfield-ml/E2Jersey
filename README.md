@@ -37,6 +37,7 @@ The dataset consists of annotated images of players wearing jerseys, split into 
 
 ### 2. Training Process
 The model is trained using the AdamW optimizer with a learning rate of 0.0001. Knowledge distillation is applied with a distillation weight of α = 0.5. Data augmentation is applied to the training set to increase diversity. 
+![7ea1f5181b09a42f9673284bdb45a68](https://github.com/user-attachments/assets/74861c5b-cef0-44a1-894c-d688f6d5dcde)
 
 ### 3. Evaluation
 The model is evaluated on both the test dataset and the random internet dataset. Metrics such as accuracy, precision, recall, and F1 score are used to assess performance.
