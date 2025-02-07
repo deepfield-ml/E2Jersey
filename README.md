@@ -1,3 +1,5 @@
+![e2jersey](https://github.com/user-attachments/assets/1b343d48-c8d3-4307-9375-998050f9af72)
+
 # E2Jersey: High-Performance ML Jersey Digit Detection System
 ## Abstract
 The E2 Engine is a state-of-the-art jersey number detection system designed to achieve high accuracy while maintaining computational efficiency. Based on the backbone of EfficientNet-B0 and enhanced by knowledge distillation, advanced data augmentation, and learning rate scheduling, the E2 Engine achieves 94.6% accuracy on Epoch 50 for the test dataset and near 90% accuracy on a challenging random internet dataset provided by RoboFlow. The entire E2Jersey Engine is ~16MB in size, which is in part due to our innovations of the E2 system. This article describes the architecture, training methodology, and performance evaluation of the E2 Engine: underlining the major ameliorations compared with past systems. 
