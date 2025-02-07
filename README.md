@@ -64,13 +64,14 @@ The E2 Engine outperforms the E1 Engine in several key areas. The improvements a
 [Download our E2Jersey Model (as well as all our past E1 attempts) on HuggingFace. ](https://huggingface.co/DeepFieldML/DeepField_PlayerDigit_Number_Analysis_Engine)
 | **Version**         | **Accuracy** | **Size** | **Architecture** | **Changes** |
 | -------------       | ------------ | -------  | ---------------  | ----------- |
-| Jersery_Model       | 75%          | 8.5 MB   | Traditional CNN  | 1st version |
 | DeepField E1 v1     | 87%          | 72.1MB   | E1 CNN           | Applied "E1" series with less overhead and slightly better performance. |
 | DeepField E1 v2     | 40%          | N/A (Interrupted) | ViT     | Changed the training technique. |
 | DeepField E1 v3     | 68.65%       | 34.3 MB  | Hybrid (CNN + MLP)| Improved hybrid training technique for better perception of data. |
 | DeepField E1 v4     | 89.39%       | 94.9 MB  | Revised E1 CNN | Revised the CNN architecture in DeepField E1. |
 | E2Jersey v1         | 93.78%       | 16.6 MB  | DeepField E-Series Engine | Pioneered a combination of technologies to achieve optimial performance and operations. |
 | E2Jersey v2         | 94.6%        | 16.5 MB  | DeepField E-Series Engine | Revised for larger scale datasets with quantization and better performance. |
+
+![image](https://github.com/user-attachments/assets/73abf287-cea2-4792-a616-ae252b57cec6)
 
 > Note: This repository will only contain the training script. The model itself will always be on HuggingFace. 
 
