@@ -10,7 +10,11 @@ The reason why a digit detection engine in DeepField is important is due to the 
 The identification of jersey numbers is a crucial task in sport analytics that can enable the analysis of players, performance tracking, and automated event analysis. This is especially useful in sports like soccer, where players move fast and having a dataset is important to assist many aspects of the game. Varying light conditions, occlusions, and diverse jersey designs make this computational task challenging. The E2 Engine addresses challenges by leveraging a backbone in the form of an EfficientNetB0 combined with knowledge distillation and advanced techniques for data augmentation. The system is designed to achieve high accuracy while keeping the model size compact for deployment on edge devices. Similar to professional and expensive VARs (Virtual Assistant Referees), our goal of E2Jersey is to bring many VAR aspects to mobility and full self automation. 
 
 ## Architecture
+![7ea1f5181b09a42f9673284bdb45a68](https://github.com/user-attachments/assets/74861c5b-cef0-44a1-894c-d688f6d5dcde)
+(Full structure of the neural network) 
+
 DeepField's E2 Engine is based on the EfficientNet-B0 architecture, which is a lightweight and very efficient convolutional neural network (CNN) optimized for image classification tasks. E2 is designed to be performance efficient, adaptable, scalable, and most importantly accurate. **E2's premise is utilizing machine learning to accelerate traditional automated tasks for predictive performance.** 
+
 The main components of the E2 Engine are: 
 
 ### 1. EfficientNet-B0 Backbone
@@ -38,9 +42,6 @@ The dataset consists of annotated images of players wearing jerseys, split into 
 
 ### 2. Training Process
 The model is trained using the AdamW optimizer with a learning rate of 0.0001. Knowledge distillation is applied with a distillation weight of α = 0.5. Data augmentation is applied to the training set to increase diversity. 
-
-Below is the full propagation process: 
-![7ea1f5181b09a42f9673284bdb45a68](https://github.com/user-attachments/assets/74861c5b-cef0-44a1-894c-d688f6d5dcde)
 
 ### 3. Evaluation
 The model is evaluated on both the test dataset and the random internet dataset. Metrics such as accuracy, precision, recall, and F1 score are used to assess performance.
