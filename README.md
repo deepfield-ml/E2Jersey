@@ -1,5 +1,16 @@
 ![e2jersey](https://github.com/user-attachments/assets/1b343d48-c8d3-4307-9375-998050f9af72)
 
+
+[![DOI](https://zenodo.org/badge/929189893.svg)](https://doi.org/10.5281/zenodo.14838451)
+[![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/)
+[![torch](https://img.shields.io/badge/torch-%5E1.8-green)](https://pytorch.org/)
+[![torchvision](https://img.shields.io/badge/torchvision-%5E0.9-blue)](https://pytorch.org/vision/stable/index.html)
+[![Pillow](https://img.shields.io/badge/Pillow-9.0+-orange)](https://pypi.org/project/Pillow/)
+[![tqdm](https://img.shields.io/badge/tqdm-%5E4.60-purple)](https://pypi.org/project/tqdm/)
+[![matplotlib](https://img.shields.io/badge/matplotlib-%5E3.4-yellow)](https://matplotlib.org/)
+[![onnx](https://img.shields.io/badge/onnx-%5E1.10-red)](https://onnx.ai/)
+
+
 # E2Jersey: High-Performance ML Jersey Digit Detection System
 ## Abstract
 The E2 Engine is a state-of-the-art jersey number detection system designed to achieve high accuracy while maintaining computational efficiency. Based on the backbone of EfficientNet-B0 and enhanced by knowledge distillation, advanced data augmentation, and learning rate scheduling, the E2 Engine achieves 94.6% accuracy on Epoch 50 for the test dataset and near 90% accuracy on a challenging random internet dataset provided by RoboFlow. The entire E2Jersey Engine is ~16MB in size, which is in part due to our innovations of the E2 system. This article describes the architecture, training methodology, and performance evaluation of the E2 Engine: underlining the major ameliorations compared with past systems. 
