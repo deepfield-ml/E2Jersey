@@ -1,7 +1,7 @@
 ![e2jersey](https://github.com/user-attachments/assets/1b343d48-c8d3-4307-9375-998050f9af72)
 
 
-[![DOI](https://zenodo.org/badge/929189893.svg)](https://doi.org/10.5281/zenodo.14838451)
+[![DOI](https://zenodo.org/badge/929189893.svg)](https://doi.org/10.5281/zenodo.14838463)
 [![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/)
 [![torch](https://img.shields.io/badge/torch-%5E1.8-green)](https://pytorch.org/)
 [![torchvision](https://img.shields.io/badge/torchvision-%5E0.9-blue)](https://pytorch.org/vision/stable/index.html)
